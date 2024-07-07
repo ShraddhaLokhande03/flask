@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 # @app.route('/')
 # def Welcome():
-#     return "good morning"
+#     return "good morning"----simple start
 
 @app.route('/Pass/<int:score>')
 def Pass(score):
